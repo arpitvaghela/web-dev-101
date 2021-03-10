@@ -32,14 +32,13 @@ npm -v
     mkdir express-app
     cd express-app
 
-    npm init
+    npm init -y
     npm install express --save
     npm install cors --save
 ```
 
 ```js
 // express-app/app.js
-
 const express = require("express");
 const cors = require("cors");
 const app = express();
